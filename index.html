@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Stop Watch</h1>
+        <div id="display">00:00:00.00</div>
+        <div class="controls">
+            <button id="start-pause">Start</button>
+            <button id="reset">Reset</button>
+            <button id="lap">Lap</button>
+        </div>
+        <div class="lap-container">
+            <h2>Lap Times</h2>
+            <!-- Show the Laps only if their are any current laps -->
+            <ul id="laps"></ul>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
